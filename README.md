@@ -23,5 +23,5 @@ https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.c.pdf
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.pio.h.pdf
 
 ## 3.4: Your spreadsheet of initial PIO register states
-
+https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/spreadsheet.xlsx
 ## 3.5: A photo or scan of your paper model
