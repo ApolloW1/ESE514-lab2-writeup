@@ -23,12 +23,13 @@ https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.c.pdf
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.pio.h.pdf
 
 ## 3.4: Your spreadsheet of initial PIO register states
-https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/spreadsheet.xlsx
+[https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/spreadsheet.xlsx](https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Complete%20Spreadsheet.xlsx)
 ## 3.5: A photo or scan of your paper model
 
 ![IMG_530938FF33DC-1](https://user-images.githubusercontent.com/114015725/196051142-607c1e6f-e3ce-4ddc-8d76-44df9e28644e.jpeg)
 
 ## 3.6: Your complete packet transmission spreadsheet
+https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Complete%20Spreadsheet.xlsx
 
 ## 3.7: Your polished timing diagram
 
