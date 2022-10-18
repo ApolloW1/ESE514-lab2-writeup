@@ -26,7 +26,7 @@
 
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
-    It convert pioasm to bytes for low level hardware to control the PIO. Instruction pico_generate_pio_header() in CMake file invokes the assembler.
+    It convert pioasm file to bytes for low level hardware to control the PIO. Instruction pico_generate_pio_header() in CMake file invokes the assembler.
 
 ## 3.3: Photos or scans of your annotated code printouts.
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.c.pdf
@@ -34,18 +34,37 @@ https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.c.pdf
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.pio.h.pdf
 
 ## 3.4: Your spreadsheet of initial PIO register states
+
+Sheet 1:
 [https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/spreadsheet.xlsx](https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Complete%20Spreadsheet.xlsx)
 ## 3.5: A photo or scan of your paper model
 
 ![IMG_530938FF33DC-1](https://user-images.githubusercontent.com/114015725/196051142-607c1e6f-e3ce-4ddc-8d76-44df9e28644e.jpeg)
 
 ## 3.6: Your complete packet transmission spreadsheet
+
+Sheet 2:
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Complete%20Spreadsheet.xlsx
 
 ## 3.7: Your polished timing diagram
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Timing%20Diagram.pdf
 
-##
+## Reflect:
+What were some strengths/weaknesses of working with paper?
+
+Strength: Easy to see the trend
+
+Weakness: It takes time to draw the diagram
+
+What were some strengths/weaknesses of working with spreadsheets?
+
+Strength: Data is clearly shown
+
+Weakness: It takes time to make the sheets
+
+How might you approach this task using other tools available to you?
+
+By using the voltmeter.
 
 ## 4: Code Folder
 https://github.com/ApolloW1/ESE514-lab2-writeup/tree/main/code%20folder
