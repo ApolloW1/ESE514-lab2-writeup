@@ -25,6 +25,7 @@
     This commands writes a word of data to a state machine's TX FIFO, blocking if the FIFO is full. The function is realized by including the header file.
 
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
+
     It convert pioasm to bytes for low level hardware to control the PIO. Instruction pico_generate_pio_header() in CMake file invokes the assembler.
 
 ## 3.3: Photos or scans of your annotated code printouts.
