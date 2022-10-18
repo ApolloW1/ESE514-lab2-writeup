@@ -32,4 +32,4 @@ https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.pio.h.pdf
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Complete%20Spreadsheet.xlsx
 
 ## 3.7: Your polished timing diagram
-
+https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Timing%20Diagram.pdf
