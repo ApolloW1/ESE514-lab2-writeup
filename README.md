@@ -6,6 +6,8 @@
 
 2. What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?
 
+    LEDs and push buttons.
+
 3. How do you get data into a PIO state machine?
 
    The data is transmitted from FIFO to a PIO state machine. PULL instruction loads a 32-bit word from the TX FIFO into the OSR.
