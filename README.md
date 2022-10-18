@@ -2,18 +2,17 @@
 ## 3.2: Response to Questions
 1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 
-  Unlike a general purpose processor, PIO state machines are highly specialised for IO, with a focus on determinism, precise timing, and close integration with fixed-function hardware.
+    Unlike a general purpose processor, PIO state machines are highly specialised for IO, with a focus on determinism, precise timing, and close integration with fixed-function hardware.
 
 2. What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?
 
 3. How do you get data into a PIO state machine?
 
-  PULL instruction loads a 32-bit word from the TX FIFO into the OSR.
+    PULL instruction loads a 32-bit word from the TX FIFO into the OSR.
 
 4. How do you get data out of a PIO state machine?
 
-  OUT instruction shift bit count bits out of the Output Shift Register (OSR), and write those bits to Destination. Additionally, increase the output shift 
-count by Bit count, saturating at 32.
+    OUT instruction shift bit count bits out of the Output Shift Register (OSR), and write those bits to Destination. Additionally, increase the output shift count by Bit count, saturating at 32.
 
 5. How do you program a PIO state machine?
 
@@ -21,9 +20,9 @@ count by Bit count, saturating at 32.
 
 6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
 
-  pio_sm_put_blocking( )
+    pio_sm_put_blocking( )
 
-  The function realized by including the header file.
+    The function realized by including the header file.
 
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
