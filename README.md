@@ -42,3 +42,6 @@ https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Complete%20Spreadsheet
 
 ## 3.7: Your polished timing diagram
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/Timing%20Diagram.pdf
+
+## 4: Code Folder
+https://github.com/ApolloW1/ESE514-lab2-writeup/tree/main/code%20folder
