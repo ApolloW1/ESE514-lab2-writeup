@@ -2,9 +2,7 @@
 ## 3.2: Response to Questions
 1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 
-Unlike a general purpose processor, PIO state machines are highly specialised for IO, with a focus on determinism, precise timing, and close integration 
-
-with fixed-function hardware.
+Unlike a general purpose processor, PIO state machines are highly specialised for IO, with a focus on determinism, precise timing, and close integration with fixed-function hardware.
 
 2. What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?
 
