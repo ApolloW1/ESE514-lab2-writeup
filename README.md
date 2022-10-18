@@ -1,34 +1,34 @@
 # ESE514-lab2-writeup
 ## 3.2: Response to Questions
-Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
+1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 
 Unlike a general purpose processor, PIO state machines are highly specialised for IO, with a focus on determinism, precise timing, and close integration 
 
 with fixed-function hardware.
 
-What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?
+2. What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?
 
-How do you get data into a PIO state machine?
+3. How do you get data into a PIO state machine?
 
 PULL instruction loads a 32-bit word from the TX FIFO into the OSR.
 
-How do you get data out of a PIO state machine?
+4. How do you get data out of a PIO state machine?
 
 OUT instruction shift bit count bits out of the Output Shift Register (OSR), and write those bits to Destination. Additionally, increase the output shift 
 
 count by Bit count, saturating at 32.
 
-How do you program a PIO state machine?
+5. How do you program a PIO state machine?
 
 
 
-In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
+6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
 
 pio_sm_put_blocking( )
 
 The function realized by including the header file.
 
-What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
+7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
 ## 3.3: Photos or scans of your annotated code printouts.
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.c.pdf
