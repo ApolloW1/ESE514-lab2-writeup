@@ -8,7 +8,7 @@
 
 3. How do you get data into a PIO state machine?
 
-    PULL instruction loads a 32-bit word from the TX FIFO into the OSR.
+   The data is transmitted from FIFO to a PIO state machine. PULL instruction loads a 32-bit word from the TX FIFO into the OSR.
 
 4. How do you get data out of a PIO state machine?
 
@@ -16,15 +16,16 @@
 
 5. How do you program a PIO state machine?
 
-
+    The date should be loaded to TX FIFO and then transmitted to the state machine to program a PIO state machine.
 
 6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
 
     pio_sm_put_blocking( )
 
-    The function realized by including the header file.
+    This commands writes a word of data to a state machine's TX FIFO, blocking if the FIFO is full. The function is realized by including the header file.
 
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
+    It convert pioasm to bytes for low level hardware to control the PIO. Instruction pico_generate_pio_header() in CMake file invokes the assembler.
 
 ## 3.3: Photos or scans of your annotated code printouts.
 https://github.com/ApolloW1/ESE514-lab2-writeup/blob/main/ws2812.c.pdf
